@@ -7,8 +7,10 @@ const About = () => {
 
       {/* General Info + Education */}
       <section>
-        <h2 className="text-yellow-400 text-2xl font-bold mb-4">General Info & Education</h2>
-        <p className="text-gray-300">I'm a passionate web developer with a background in XYZ. I graduated from ABC University...</p>
+        <h2 className="text-yellow-400 text-2xl font-bold mb-4">About</h2>
+        <p className="text-gray-300">I am Parv--currently doing my undergrad in Computer Science at Case Western Reserve University in Cleveland, OH. I started programming almost a decade ago by builiding fun games scratch.mit.edu. I made my first real application in highschool which was an inventory management application using Java and SQL on Netbeans. <br />  
+        <br /> Over the course of the last 4 years in university and 3 internships, I have worked on more than two dozen projects. I am a leader and a team player with great adaptability to change. Outside school and work, you can find me in the gym or learning a new language or maybe even writing poems.
+        </p>
       </section>
 
       {/* Skills */}
@@ -20,7 +22,9 @@ const About = () => {
       {/* Projects */}
       <section>
         <h2 className="text-yellow-400 text-2xl font-bold mb-4">Projects</h2>
+        
         <Projects />
+        
       </section>
 
     </div>

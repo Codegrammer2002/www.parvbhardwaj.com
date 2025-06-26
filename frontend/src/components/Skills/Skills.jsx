@@ -1,6 +1,11 @@
 const skills = [
-  "HTML", "CSS", "JavaScript", "React", "TailwindCSS",
-  "Node.js", "Express", "MongoDB", "Git", "REST APIs"
+  "Java", "JavaScript", "Python", "React.js", "Next.js", "Spring Boot",
+  "Node.js", "Express.js", "MongoDB", "SQLite", "Git", ".NET",
+  "JSON", "OData", "SharePoint", "PowerAutomate", "HTML", "CSS",
+  "Tailwind CSS", "CUDA", "Bash", "PowerShell", "SQL", "TypeScript",
+  "Flask", "Google Maps API", "Places API", "Directions API", 
+  "Google Speech Recognition API", "BeautifulSoup", "Selenium", 
+  "NetBeans", "Java Mail API"
 ];
 
 const Skills = () => {
