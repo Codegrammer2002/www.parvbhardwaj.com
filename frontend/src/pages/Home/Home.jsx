@@ -1,6 +1,7 @@
 import profile from '../../assets/profile.jpg';
 import AboutPreview from '../../components/AboutPreview/AboutPreview';
 import Navbar from '../../components/Navbar/Navbar';
+import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <>
@@ -18,9 +19,9 @@ const Home = () => {
           </h1>
           <p className="text-gray-400 text-lg mt-4">Fullstack Web Developer</p>
           <a href="#about">
-            <button className="mt-6 px-6 py-3 bg-yellow-500 hover:bg-yellow-600 text-black font-semibold rounded-md">
-              VIEW MY WORK
-            </button>
+           <Link to ="my-work">  <button className="mt-6 px-6 py-3 bg-yellow-500 hover:bg-yellow-600 text-black font-semibold rounded-md" link ='/my-work'>
+              VIEW MY WORK 
+            </button> </Link>
           </a>
         </div>
 

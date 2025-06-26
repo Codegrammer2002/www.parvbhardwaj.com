@@ -7,7 +7,7 @@ const Navbar = () => {
         <h1 className="text-yellow-400 text-xl font-bold">Parv Bhardwaj</h1>
         <ul className="hidden md:flex gap-8 text-sm text-white font-medium">
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
+          <li><Link to="/about">About Me</Link></li>
           <li><Link to="/resume">Resume</Link></li>
           <li><Link to="/my-work">My Work</Link></li>
           <li><Link to="/contact">Contact</Link></li>

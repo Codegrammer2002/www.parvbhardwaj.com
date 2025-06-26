@@ -1,5 +1,5 @@
 import profile from '../../assets/profile.jpg';
-
+import Skills from '../Skills/Skills';
 const AboutPreview = () => {
   return (
     <section id="about" className="bg-gray-900 py-16 px-6 text-white text-center">
