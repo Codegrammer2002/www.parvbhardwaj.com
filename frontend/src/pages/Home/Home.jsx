@@ -32,9 +32,15 @@ const Home = () => {
             className="rounded-lg w-60 h-60 object-cover border-4 border-yellow-500 shadow-lg"
           />
         </div>
+        <div className="mt-12 text-center max-w-2xl text-gray-300">
+        <p>
+            I’m a fullstack web developer with a passion for building responsive and engaging websites.
+            Skilled in React, TailwindCSS, and backend tech, I focus on clean design and great user experience.
+        </p>
+</div>
       </section>
 
-      <AboutPreview />
+ 
     </>
   );
 };

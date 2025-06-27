@@ -32,14 +32,14 @@ const experiences = [
 
 const WorkExperience = () => (
   <section>
-    <h2 className="text-yellow-400 text-2xl font-bold mb-4">Work Experience</h2>
-    <div className="space-y-6">
+    <h2 className="text-yellow-400 text-2xl font-bold mb-6">Work Experience</h2>
+    <div className="grid gap-6 md:grid-cols-2">
       {experiences.map((exp, idx) => (
-        <div key={idx} className="bg-gray-800 p-4 rounded shadow-md">
-          <h3 className="text-white font-semibold">{exp.role} – <span className="text-yellow-400">{exp.company}</span></h3>
-          <p className="text-sm text-gray-400 italic">{exp.duration}</p>
-          <p className="text-sm text-gray-400 italic">{exp.location}</p>
-          <p className="text-gray-300 mt-2">{exp.description}</p>
+        <div key={idx} className="bg-gray-800 p-5 rounded-lg shadow-md hover:shadow-indigo-500 transition">
+          <h3 className="text-white text-lg font-semibold mb-1">{exp.role}</h3>
+          <p className="text-sm text-gray-400">{exp.company} – {exp.location}</p>
+          <p className="text-sm text-gray-400 italic mb-2">{exp.duration}</p>
+          <p className="text-gray-300 text-sm">{exp.description}</p>
         </div>
       ))}
     </div>
