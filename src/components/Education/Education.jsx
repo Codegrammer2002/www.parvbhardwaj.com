@@ -4,7 +4,7 @@ const Education = () => (
     <h2 className="text-yellow-400 text-2xl font-bold mb-4">Education</h2>
 
     <div className="bg-gray-800 p-4 rounded shadow-md">
-      <h3 className="text-white font-semibold">Masters in Business Analystics and Intelligence</h3>
+      <h3 className="text-white font-semibold">Masters in Business Analytics and Intelligence</h3>
       <p className="text-sm text-gray-400 italic">Case Western Reserve University 2025 - 2026, Cleveland, OH</p>
     </div>
   </section>
