@@ -1,7 +1,6 @@
 const Education = () => (
   <div>
     <section>
-    <h2 className="text-yellow-400 text-2xl font-bold mb-4">Education</h2>
 
     <div className="bg-gray-800 p-4 rounded shadow-md">
       <h3 className="text-white font-semibold">Masters in Business Analytics and Intelligence</h3>
