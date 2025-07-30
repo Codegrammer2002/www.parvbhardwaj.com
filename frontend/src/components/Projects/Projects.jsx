@@ -9,7 +9,7 @@ const projects = [
     tech: ["React", "TailwindCSS", "EmailJS"]
   },
   {
-    title: "PollPal",
+    title: "PollPal(Partially deployed.)",
     description: "A local activity recommendation app with location and category filters.",
     link: "https://csds395-2025spring-pollpal-1.onrender.com/",
     tech: ["React", "MongoDB", "Django", "TailwindCSS"]
